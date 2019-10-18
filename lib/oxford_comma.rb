@@ -9,15 +9,14 @@ def oxford_comma(words)
     words[-1].insert(0, "and ")
     words.join(", ")
     #binding.pry 
-    # turn into a string
-    # add commas
-    # add final 'and' 
-    # lookuo .insert 
-    # a.insert(2, 99)         #=> ["a", "b", 99, "c", "d"]
-    # lookup .join 
-    # [ "a", "b", "c" ].join("-")   #=> "a-b-c"
+   
   end 
 end
+
+
+
+
+
 # things iv'e tried:
 
 # words[-1]
@@ -37,4 +36,10 @@ end
 
 
 
-# Notes: 
+# Notes: # turn into a string
+    # add commas
+    # add final 'and' 
+    # lookuo .insert 
+    # a.insert(2, 99)         #=> ["a", "b", 99, "c", "d"]
+    # lookup .join 
+    # [ "a", "b", "c" ].join("-")   #=> "a-b-c"
