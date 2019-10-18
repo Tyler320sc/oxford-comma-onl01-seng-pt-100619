@@ -4,8 +4,8 @@ def oxford_comma(words)
     words[-1].insert(0, "and ")
     words.join(", ")
     #binding.pry
-   elsif words.length < 2
-    
+   elsif words.length == 2
+    "#{words[0]} and #{words[1]}"
   end 
 end
 
