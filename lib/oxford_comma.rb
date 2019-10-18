@@ -6,6 +6,8 @@ def oxford_comma(words)
     #binding.pry
    elsif words.length == 2
     "#{words[0]} and #{words[1]}"
+    elsif words.length == 1 
+    words[0]
   end 
 end
 
