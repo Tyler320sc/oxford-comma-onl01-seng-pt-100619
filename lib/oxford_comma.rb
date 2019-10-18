@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 def oxford_comma(words)
   #takes an array of sting elements
   #converts array into a string using the oxford comma 
@@ -8,7 +8,7 @@ def oxford_comma(words)
   if words.length > 2
     words[-1].insert(0, "and ")
     words.join(", ")
-    binding.pry 
+    #binding.pry 
     # turn into a string
     # add commas
     # add final 'and' 
