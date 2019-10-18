@@ -4,7 +4,7 @@ def oxford_comma(words)
     words[-1].insert(0, "and ")
     words.join(", ")
     #binding.pry
-  else if words.length > -1
+  else if words.length > 1
     
   end 
 end
