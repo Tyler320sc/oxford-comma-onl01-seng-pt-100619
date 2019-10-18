@@ -1,15 +1,11 @@
 #require 'pry'
 def oxford_comma(words)
-  #takes an array of sting elements
-  #converts array into a string using the oxford comma 
-  
-  
-  #check if this array is greater than 3
   if words.length > 2
     words[-1].insert(0, "and ")
     words.join(", ")
-    #binding.pry 
-   
+    #binding.pry
+  else if words.length > -1
+    
   end 
 end
 
